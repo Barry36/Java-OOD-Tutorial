@@ -1,8 +1,13 @@
+package StaticDynamicType;
+
 // Shape.java: abstract base class
-public abstract class Shape { // abstract class, can't instantiate
-   // to implement an idNumber
+public abstract class Shape {       // abstract class, can't instantiate
+   
+// to implement an idNumber
    private static int counter = 0;
    private int idNumber;
+
+   
    public Shape () {
       idNumber = ++counter;
       System.out.println("Shape!");

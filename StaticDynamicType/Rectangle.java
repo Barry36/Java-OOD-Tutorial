@@ -1,3 +1,4 @@
+package StaticDynamicType;
 public class Rectangle extends Shape{
     protected double length;
     protected double width;
