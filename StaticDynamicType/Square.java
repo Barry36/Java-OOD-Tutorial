@@ -9,4 +9,8 @@ public class Square extends Rectangle{
     public void printSquare(){
         System.out.println("Hello from Square!");
     }
+
+    public void disp(){
+        System.out.println("Display from Square!");
+    }
 }

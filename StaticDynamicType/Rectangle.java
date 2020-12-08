@@ -55,4 +55,8 @@ public class Rectangle extends Shape{
     private boolean isSquare(){
         return width == length;
     } 
+
+    public void disp(){
+        System.out.println("Display from Rectangle!");
+    }
 }

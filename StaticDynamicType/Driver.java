@@ -15,5 +15,7 @@ public class Driver {
 
         // Static & Dynamic Type
         System.out.println("Barry");
+        Rectangle rec = new Square(1.0);
+        rec.disp();
     }
 }
